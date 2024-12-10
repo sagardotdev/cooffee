@@ -1,0 +1,52 @@
+.main-container-landing-page{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/src/assets/Coffee-cafe.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container-landing-page h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "PT Serif", serif;
+  font-size: 2.8vw;
+  text-align: center;
+  font-weight: 400;
+  background: none;
+  color: white;
+}
+
+.main-container-landing-page button{
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.main-container-landing-page button:hover{
+  cursor: pointer;
+}
+
+@media (max-width: 600px){
+
+  .main-container-landing-page h1{
+    font-size: 5vw;
+  }
+
+  .main-container-landing-page button{
+    font-size: 5vw;
+  }
+}

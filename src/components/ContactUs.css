@@ -1,0 +1,44 @@
+#contact-main-container{
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#contact-main-container h3{
+  font-size: 2.6vw;
+  font-weight: 400;
+  font-family: 'ST Serif', serif;
+}
+
+#contact-main-container p{
+  font-size: 16px;
+  padding: 10px;
+}
+
+#input-subscribe-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin-bottom: 60px;
+}
+
+#input-subscribe-button input{
+  width: 340px;
+  height: 50px;
+  font-size: 20px;
+  padding: 0px 10px;
+  border: 1px solid black;
+}
+
+#input-subscribe-button button{
+  padding: 10px 20px;
+  border-radius: 2px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}

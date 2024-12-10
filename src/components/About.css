@@ -1,0 +1,38 @@
+#about-us-main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 100%; 
+}
+
+#para-1{
+  font-size: 2vw;
+  font-family: 'PT Serif', serif;
+  font-weight: 100;
+  padding: 0 5%;
+  margin: 80px 0px 40px 0px;
+  transform: scaleY(1.3);
+}
+
+#para-2{
+  font-size: 1.4vw;
+  font-family: 'PT Serif', serif;
+  line-height: 32px;
+  font-weight: 400;
+  padding: 0 10%;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+#para-3{
+  font-size: 1.8vw;
+  padding: 0 20%;
+  margin: 100px 0px;
+  font-family: 'ST Serif', serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  transform: scaleY(1.4);
+}
+
